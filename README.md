@@ -10,3 +10,8 @@ spring actuator
 // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator
 implementation("org.springframework.boot:spring-boot-starter-actuator:${버전}")
 ```
+2. 마이크로미터에서 프로메테우스를 사용하기 위한 gradle 추가
+```kotlin
+	// https://mvnrepository.com/artifact/io.micrometer/micrometer-registry-prometheus
+	implementation("io.micrometer:micrometer-registry-prometheus:1.11.4")
+```
