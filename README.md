@@ -24,7 +24,7 @@ plugin{
 	id("com.gorylenko.gradle-git-properties") version "2.4.1"
 }
 ```
-info 접근시에 에러페이지 발생시에 참조 -> https://github.com/munseop-sim/spring-actuator/issues/3
+gson 사용시에 info 접근시에 에러페이지 발생시에 참조 -> https://github.com/munseop-sim/spring-actuator/issues/3
 
 ### 3. 프로메테우스에서 tomcat정보 노출을 위한 설정
 **actuator관련 설정인 management하위에 설정하는거 아님!**
